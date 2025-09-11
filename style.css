@@ -1,0 +1,329 @@
+
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cc-mighty-mouth-variable, sans-serif;
+  font-variation-settings: "BOUN" 0, "ital" 0, "wght" 400;
+  font-size: 12px;
+}
+
+header {
+  background-color: #E2FFBF;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Home Page */
+
+.plant-name {
+  font-weight: bold;
+  font-family: "cc-mighty-mouth-variable",sans-serif;
+  font-variation-settings: 'wght' 800, 'ital' 0, 'BOUN' 0;
+}
+
+.plant-thoughts {
+  font-style: italic;
+  font-family: "cc-mighty-mouth-variable",sans-serif;
+  font-variation-settings: 'wght' 400, 'ital' 3, 'BOUN' 0;
+}
+
+.container {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(27, 1fr);
+  max-width: 27rem;
+  margin: auto;
+  gap: 10px;
+}
+
+.welcome {
+  padding: 1rem;
+  text-align: center;
+  margin: auto;
+  max-width: 27rem;
+}
+
+.intro1 {
+  grid-area: 1 / 1 / 25 / 28;
+  background-image: url('plant_photos/IMG_8491 5.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.intro-text-1 {
+  background-color: #FFFFFF;
+  grid-area: 2 / 2 / auto / 17;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.intro2 {
+  grid-area: 11 / 15 / 38 / 27;
+  z-index: 5;
+  background-image: url('plant_photos/cross street.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.intro3 {
+  grid-area: 25 / 1 / 50 / 28;
+  background-image: url('plant_photos/start.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.intro-text-2 {
+  background-color: #FFFFFF;
+  grid-area:  48 / 6 / auto / 27;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.lantana1 {
+  grid-area: 50 / 1 / 65 / 17;
+  background-image: url('plant_photos/lantana 1.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.lantana2 {
+  grid-area: 50 / 17 / 65 / 28;
+  background-image: url('plant_photos/lantana 2.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.lantana-text {
+  background-color: #E2FFBF;
+  grid-area:  51 / 4 / auto / 27;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.peppervine {
+  grid-area: 65 / 1 / 80 / 28;
+  background-image: url('plant_photos/peppervine 1.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.peppervine-text {
+  background-color: #E2FFBF;
+  grid-area:  66 / 2 / auto / 27;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.river-oats {
+  grid-area: 80 / 1 / 100 / 28;
+  background-image: url('plant_photos/river oats.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.river-oats-text {
+  background-color: #E2FFBF;
+  grid-area:  auto / 2 / 99 / 20;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cypress1 {
+  grid-area: 100 / 1 / 130 / 28;
+  background-image: url('plant_photos/bald cypress 1.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.cypress2 {
+  grid-area: 105 / 15 / 128 / 27;
+  background-image: url('plant_photos/bald cypress 3.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.cypress-text {
+  background-color: #E2FFBF;
+  grid-area:  128 / 2 / auto / 27;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.elbow-plant {
+  grid-area: 130 / 1 / 148 / 28;
+  background-image: url('plant_photos/elbow plant.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.elbow-plant-text {
+  background-color: #E2FFBF;
+  grid-area:  146 / 2 / auto / 22;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.coleus {
+  grid-area: 148 / 1 / 168 / 28;
+  background-image: url('plant_photos/coleus.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.coleus-text-1 {
+  background-color: #E2FFBF;
+  grid-area:  149 / 2 / auto / 22;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.coleus-text-2 {
+  background-color: #E2FFBF;
+  grid-area:  166 / 6 / auto / 27;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nasturtium {
+  grid-area: 168 / 1 / 184 / 28;
+  background-image: url('plant_photos/Garden Nasturtium.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.nasturtium-text {
+  background-color: #E2FFBF;
+  grid-area:  182 / 2 / auto / 25;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.wisteria1 {
+  grid-area: 184 / 1 / 200 / 12;
+  background-image: url('plant_photos/wisteria.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.wisteria2 {
+  grid-area: 184 / 12 / 200 / 28;
+  background-image: url('plant_photos/wisteria.JPG');
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.wisteria-text {
+  background-color: #E2FFBF;
+  grid-area:  185 / 6 / auto / 27;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.yucca {
+  grid-area: 200 / 1 / 220 / 28;
+  background-image: url('plant_photos/red yucca.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.yucca-text {
+  background-color: #E2FFBF;
+  grid-area:  218 / 4 / auto / 27;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.crape-myrtle {
+  grid-area: 220 / 1 / 250 / 28;
+  background-image: url('plant_photos/crape-myrtle.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.crape-myrtle-text {
+  background-color: #E2FFBF;
+  grid-area:  248 / 2 / auto / 27;
+  border: 3px solid black;
+  z-index: 5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Plant Pages */
+
+.plant-images {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(27, 1fr);
+  max-width: 27rem;
+  margin: auto;
+  gap: 10px;
+}
+
+.plant-image-big {
+  grid-area: 1 / 1 / 25 / 28;
+  background-image: url('plant_photos/IMG_8491 5.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.plant-image-small {
+  grid-area: 11 / 12 / 30 / 27;
+  z-index: 5;
+  background-image: url('plant_photos/cross street.JPG');
+  background-size: cover;
+  border: 3px solid black; 
+}
+
+.plant-info {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+  margin: auto;
+  max-width: 27rem;
+}
+
+.plant-name {
+  font-weight: bold;
+  font-family: "cc-mighty-mouth-variable",sans-serif;
+  font-variation-settings: 'wght' 800, 'ital' 0, 'BOUN' 0;
+  font-size: 24px;
+}
