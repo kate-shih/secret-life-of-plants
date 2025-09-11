@@ -321,9 +321,45 @@ h3 {
   max-width: 27rem;
 }
 
-.plant-name {
+.plant-page-name {
   font-weight: bold;
   font-family: "cc-mighty-mouth-variable",sans-serif;
   font-variation-settings: 'wght' 800, 'ital' 0, 'BOUN' 0;
   font-size: 24px;
+}
+
+.plant-scientific {
+  font-weight: bold;
+  font-family: "cc-mighty-mouth-variable",sans-serif;
+  font-variation-settings: 'wght' 800, 'ital' 3, 'BOUN' 0;
+  font-size: 18px;
+}
+
+.plant-facts {
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #E2FFBF;
+}
+
+.bottom-stuff {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(27, 1fr);
+  max-width: 27rem;
+  margin: auto;
+  gap: 10px;
+}
+
+.back-button {
+  grid-area: 1 / 2 / auto / 20;
+}
+
+.seen-button {
+  grid-area: 1 / 18 / auto / 28;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: lightgray;
+  text-align: center;
+  color: white;
 }
