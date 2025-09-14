@@ -52,7 +52,7 @@ h3 {
   display: grid;
   position: relative;
   grid-template-columns: repeat(27, 1fr);
-  max-width: 27rem;
+  max-width: 35rem;
   margin: auto;
   gap: 10px;
 }
@@ -61,7 +61,7 @@ h3 {
   padding: 1rem;
   text-align: center;
   margin: auto;
-  max-width: 27rem;
+  max-width: 35rem;
 }
 
 section img {
@@ -320,7 +320,7 @@ section img {
   display: grid;
   position: relative;
   grid-template-columns: repeat(27, 1fr);
-  max-width: 27rem;
+  max-width: 35rem;
   margin: auto;
   gap: 10px;
 }
@@ -349,7 +349,7 @@ section img {
   padding-right: 1rem;
   text-align: left;
   margin: auto;
-  max-width: 27rem;
+  max-width: 35rem;
 }
 
 .plant-page-name {
@@ -369,7 +369,7 @@ section img {
 .plant-facts {
   padding: 1rem;
   margin: auto;
-  max-width: 27rem;
+  max-width: 35rem;
   background-color: #E2FFBF;
 }
 
@@ -389,7 +389,7 @@ section img {
   display: grid;
   position: relative;
   grid-template-columns: repeat(27, 1fr);
-  max-width: 27rem;
+  max-width: 35rem;
   margin: auto;
   gap: 10px;
 }
