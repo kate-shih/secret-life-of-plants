@@ -468,7 +468,7 @@ section img {
 
 @keyframes glow {
   /* No glow when the element is off-screen */
-  30% {
+  20% {
     box-shadow: 0 0 0 rgba(68, 124, 1, 0);
   }
   /* Full glow as the element enters the viewport */
@@ -478,7 +478,7 @@ section img {
                 0 0 15px 15px rgba(68, 124, 1, 0.2);
   }
   /* Fade out as the element leaves the viewport */
-  70% {
+  80% {
     box-shadow: 0 0 0 rgba(68, 124, 1, 0);
   }
 }
