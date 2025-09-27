@@ -116,7 +116,7 @@ section img {
 .lantana1 {
   grid-area: 50 / 1 / 65 / 17;
   border: 3px solid black;
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%; 
 }
@@ -124,7 +124,7 @@ section img {
 .lantana2 {
   grid-area: 50 / 17 / 65 / 28;
   border: 3px solid black;
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%; 
 }
@@ -143,7 +143,7 @@ section img {
 .peppervine {
   grid-area: 65 / 1 / 80 / 28;
   border: 3px solid black;
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%; 
 }
@@ -162,7 +162,7 @@ section img {
 .river-oats {
   grid-area: 80 / 1 / 100 / 28;
   border: 3px solid black; 
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -181,7 +181,7 @@ section img {
 .cypress1 {
   grid-area: 100 / 1 / 130 / 28;
   border: 3px solid black; 
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -205,7 +205,7 @@ section img {
 .elbow-plant {
   grid-area: 130 / 1 / 148 / 28;
   border: 3px solid black; 
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -224,7 +224,7 @@ section img {
 .coleus {
   grid-area: 148 / 1 / 168 / 28;
   border: 3px solid black; 
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -252,7 +252,7 @@ section img {
 .nasturtium {
   grid-area: 168 / 1 / 184 / 28;
   border: 3px solid black; 
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -271,7 +271,7 @@ section img {
 .wisteria1 {
   grid-area: 184 / 1 / 195 / 12;
   border: 3px solid black; 
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -279,7 +279,7 @@ section img {
 .wisteria2 {
   grid-area: 184 / 12 / 195 / 28;
   border: 3px solid black;
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -307,7 +307,7 @@ section img {
 .yucca {
   grid-area: 197 / 1 / 220 / 28;
   border: 3px solid black; 
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -326,7 +326,7 @@ section img {
 .crape-myrtle {
   grid-area: 220 / 1 / 250 / 28;
   border: 3px solid black; 
-  animation: glow-and-fade linear both;
+  animation: glow linear both;
   animation-timeline: view(block);
   animation-range: entry 0% cover 50% exit 100%;
 }
@@ -347,7 +347,7 @@ section img {
 
 .end-text {
   background-color: #FFFFFF;
-  grid-area:  277 / 6 / auto / 27;
+  grid-area:  276 / 10 / auto / 27;
   border: 3px solid black;
   z-index: 5;
   padding-left: 1rem;
@@ -466,7 +466,7 @@ section img {
     }
 }
 
-@keyframes glow-and-fade {
+@keyframes glow {
   /* No glow when the element is off-screen */
   30% {
     box-shadow: 0 0 0 rgba(68, 124, 1, 0);
