@@ -16,8 +16,6 @@ header {
   color: white;
   padding: 1rem;
   text-align: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 h1 {
@@ -68,9 +66,11 @@ h3 {
 
 .welcome {
   padding: 1rem 0;
-  text-align: left;
+  text-align: center;
   margin: auto;
   max-width: 35rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 section img {
